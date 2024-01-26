@@ -24,9 +24,9 @@ function draw() {
   var sideLen = windowWidth/num;//variable for the side length of each square
   
   
-   for(var y = 0; y < windowHeight; y = y + sideLen) {//loop to create a row of squares in the y direction
+   for(var y = 0; y < 2* windowHeight; y = y + sideLen) {//loop to create a row of squares in the y direction
   
-  for(var x = 0; x < windowWidth; x = x + sideLen) {//loop to create a grid in the y direction
+  for(var x = 0; x < 2* windowWidth; x = x + sideLen) {//loop to create a grid in the y direction
    
    image (gif, x, y, sideLen, sideLen);
     
