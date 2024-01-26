@@ -3,7 +3,6 @@ html, body {
   padding: 0;
   font-family:'Roboto', sans-serif;
   background-color: rgb(255, 255, 255);
-  display: inline; background: lightpink;
 }
 
 canvas {
@@ -22,8 +21,13 @@ h1{
      transform: translateX(-50%) translateY(-50%);
      text-align: center;
      top: 0%;
+      display: inline; background: lightpink;
 }
 
+
+h3{
+display: inline; background: lightpink;
+}
 p{
     position: absolute;
     font-size: 0.875em;
@@ -47,13 +51,7 @@ td {
     vertical-align: baseline;
     padding-top:10px;
     text-align:center;
-
-    &:after, &:before {
-        content: '';
-
-        display: block;
-        padding-bottom: calc(50% - 0.5em);
-    }
+    
 }
 
 .container{
